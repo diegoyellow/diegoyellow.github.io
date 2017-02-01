@@ -1,0 +1,417 @@
+html{
+  background-color: #737373;
+}
+a{
+  color: inherit;
+  text-decoration: inherit;
+}
+h1{
+  font-size:inherit;
+  text-align:inherit;
+  position:inherit;
+  width:inherit;
+  height:inherit;
+  font-size:inherit;
+  color: inherit;
+  margin: 0;
+}
+#parallax{
+  /*background: url("main.jpg") no-repeat center center fixed;
+  height: auto;
+  width:100%;
+  top:30px;
+  position: relative;
+  background-size: cover;*/
+  top:37px;
+
+}
+#contacto{
+  position:relative;
+  top: 45px;
+  background-color: white;
+  margin-left: 12.5%;
+  width:75%;
+  color: #d40042;
+  font-size: 30px;
+  border-radius: 5px;
+  box-shadow: 4px 5px 5px #d40042;
+
+
+}
+.fields{
+  width:100%;
+}
+
+
+.description{
+  border-radius:7px;
+  box-shadow: 4px 5px 5px #d40042;
+  position:relative;
+  background-color:#B99364;
+  font-family:arial;
+  font-size:30px;
+}
+#parallax div{
+  background-color: black;
+  z-index:-40;
+  position: relative;
+  height: auto;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+#parallax img{
+  z-index:-40;
+  width:50%;
+  height:500px;
+  margin-left:25%;
+  top:0;
+  left:0;
+}
+
+#logo{
+  height: inherit;
+  position: absolute;
+  width: 25%;
+  background-color: #D40042;
+}
+#inside{
+  position: absolute;
+  z-index: -10;
+  margin-left: 25%;
+  width: 75%;
+  height: 100%;
+}
+#cont-logo{
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+#cont-curly{
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+#des-curly{
+  position: absolute;
+  overflow: auto;
+  top: 35%;
+  font-size: 4vw;
+  color: white;
+  font-style: arial;
+}
+.cursors{
+  cursor: crosshair;
+}
+.container-treatments{
+  position:relative;
+  width:auto;
+  height:auto;
+  border: 3px solid black;
+  top:35px;
+}
+.identifier{
+  text-align:right;
+  position:absolute;
+  width:100%;
+  height:auto;
+  font-size:50px;
+  color: white;
+}
+#tr:hover .dropdown {
+  z-index: 50;
+  opacity: 1.0;
+}
+
+.dropdown{
+  opacity: 0;
+  color: white;
+  transition: opacity 1s, z-index 0.5s;
+  background-color: #D40042;
+  border-left-style: solid;
+  position: absolute;
+  z-index: -70;
+  height: auto;
+  width: inherit;
+
+
+}
+.tintes{
+  position: relative;
+  width:49.5%;
+  border-width: 0.5%;
+  border-style: solid;
+  border-color: black;
+  cursor: crosshair;
+  height:auto;
+  background-color: #AD0828;
+  top: 0px;
+
+
+}
+.dropdown a{
+  transition: background-color 1s, color 1s;
+}
+.dropdown a:hover{
+  background-color: white;
+  color: #D40042;
+}
+.listo:hover {
+  background-color: white;
+  z-index: 30;
+  color: #D40042;
+}
+#normal-menu {
+  list-style-type: none;
+  position: absolute;
+  top: 90%;
+  height: auto;
+  padding: 0;
+  background-color: #D40042;
+  width: inherit;
+}
+/*#list_products{
+  list-style-type: circle;
+  position: relative;
+  top: 0;
+  background-color: inherit;
+  cursor: default;
+
+}*/
+/*#list_products li{
+  list-style: circle;
+  float: none;
+  width: auto;
+  cursor: default;
+  color: black;
+
+}*/
+#product_model{
+  display:block;
+  width:35%;
+  height:400px;
+}
+#product_product{
+  display:block;
+  position:absolute;
+  width:65%;
+  height:342px;
+  margin-left:35%;
+  top:58px;
+}
+#cont-decolorante{
+  position:relative;
+  width:auto;
+  height:auto;
+  border: 3px solid black;
+  top:35px;
+}
+#decolorante{
+  height:380px;
+
+}
+.listyle{
+  list-style-type: decimal;
+}
+/*li{
+  cursor: crosshair;
+  float: left;
+  transition: background-color 1s;
+  color: white;
+  width: 25%;
+}*/
+.listo{
+  cursor: crosshair;
+  float: left;
+  z-index: -50;
+  transition: background-color 1s;
+  color: white;
+  width: 25%;
+}
+.listo a{
+  display: block;
+  transition: color 1s;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 30px;
+  border-width: 3px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-color: black;
+}
+li p{
+  position: absolute;
+  width: inherit;
+  height: inherit;
+
+
+}
+#mob-menu{
+  display:none;
+  background-color: #D40042;
+  border-color:black;
+  border-style:solid;
+  border-width: 3px;
+  position:absolute;
+  width:100%;
+  z-index:60;
+  height:auto;
+  font-size:30px;
+  top: 99%;
+}
+#index_div{
+  font-size: 30px;
+}
+#mob-menu-list, #mob-menu-tintes-list, #mob-menu-terapias-list{
+  z-index: -40;
+  padding: 0;
+  margin: 0;
+}
+#mob-menu-list li{
+  list-style-type: none;
+}
+#tintes_size{
+  font-size: 50px;
+}
+#tintes_height{
+  height: 500px;
+}
+#cont-form{
+  width: 75%;
+  margin-left: 12.5%;
+}
+#image_treatments{
+  position:absolute;
+  height:inherit;
+  width:25%;
+}
+.first{
+  margin-left: 25%;
+}
+.second{
+  margin-left: 45%;
+}
+
+@media screen and (min-width: 1342px){
+  #parallax img{
+    height: 800px;
+  }
+  #product_model{
+    height: 470px;
+  }
+  #product_product{
+    height:412px;
+  }
+  #cont-decolorante{
+    position:relative;
+    width:75%;
+    margin-left: 12.5%;
+    height:auto;
+    border: 3px solid black;
+    top:35px;
+  }
+  #decolorante{
+    height:500px;
+  }
+
+}
+@media screen and (max-width:780px){
+  #mob-menu{
+    display:block;
+  }
+  #mob-menu-list, #mob-menu-tintes, #mob-menu-terapias{
+    display:none;
+  }
+  #normal-menu{
+    display:none;
+  }
+  .identifier{
+    text-align:center;
+    position:absolute;
+    width:65%;
+    margin-left: 35%;
+    height:auto;
+    font-size:35px;
+    color: white;
+  }
+  #product_product{
+    top: 35px;
+    height: 364px;
+  }
+
+
+
+
+}
+@media screen and (max-width: 437px){
+  #product_model{
+    display:none;
+    width:35%;
+    height:350px;
+  }
+  #product_product{
+    width:100%;
+    margin-left: 0;
+    position: relative;
+    height: 364px;
+  }
+  .identifier{
+    margin-left: 0;
+    width:100%;
+    font-size: 30px;
+  }
+  .container-treatments{
+    overflow-y: hidden;
+  }
+  #parallax img{
+    width:100%;
+    margin-left: 0;
+  }
+  #index_div{
+    font-size: 20px;
+  }
+  #des-curly{
+    font-size: 4vh
+  }
+  #tintes_size{
+    font-size: 25px;
+  }
+  #tintes_height{
+    height:300px;
+  }
+  #logo{
+    width: 100%;
+  }
+  #inside{
+    display:none;
+  }
+  .description{
+    font-size: 20px;
+  }
+  #contacto{
+    margin-left: 0;
+    width: 100%;
+    font-size: 20px;
+  }
+  #cont-form{
+    margin-left: 5%;
+    width:90%;
+  }
+  #des-curly{
+    font-size: 50px;
+    text-align:center;
+    margin-left:0;
+  }
+  #image_treatments{
+    display: none;
+  }
+  .first{
+    margin-left: 0;
+  }
+  .second{
+    margin-left: 0;
+  }
+}

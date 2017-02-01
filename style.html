@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!---<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>--->
+  <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+  <link rel= "stylesheet" type="text/css" href="css/main.css">
+  <link rel= "stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body>
+<div id="cont-logo">
+  <div id="logo" ><img src="css/logo.png" style="height:inherit;width:100%;"></div>
+  <a><img id="inside" class="animated bounceInLeft"></a>
+  <ul id="normal-menu">
+    <li  class="listo"><a style="border-left-style:solid;" href="index.html" class="cursors">Inicio</a></li>
+    <li  class="listo" id="tr">
+    <a href="tintes.html" class="cursors">Tintes</a>
+    <div class="dropdown">
+      <a class="cursors" href="color.html">Ye Color</a>
+      <a class="cursors" href="decolorante.html">Decolorante</a>
+    </div>
+    </li>
+    <li  class="listo" id="tr">
+      <a href="tratamientos.html" style="cursor:crosshair;">Tratamientos</a>
+      <div class="dropdown">
+        <a href="curly.html" class="cursors">Ye Curly Therapy</a>
+        <a href="liss.html" class="cursors">Ye Liss Therapy</a>
+        <a href="bloom.html" class="cursors">Ye Bloom</a>
+        <a href="essential.html" class="cursors">Ye Essential Therapy</a>
+        <a href="style.html" class="cursors">Ye Style</a>
+        <a style="border-bottom-style: solid;" href="silver.html" class="cursors">Ye Silver Color</a>
+      </div>
+    </li>
+    <li class="listo"><a href="contacto.html" class="cursors">Contacto</a></li>
+  </ul>
+  <div id="mob-menu">
+    <div style="width:inherit;height:inherit;" onclick="openMenu(mobile_menu.menu, mobile_menu.menu_ob)">Menu</div>
+    <ul id="mob-menu-list">
+      <li onclick="change('index.html')"style="border-color:black;border-width:3px;border-bottom-style:solid;border-top-style:solid;">Inicio</li>
+      <li style="border-color:black;border-width:3px;border-bottom-style:solid;" >
+        <a href="tintes.html">Tintes</a><a style="background-color:#ff0051;" onclick="openMenu(mobile_menu.tintes, mobile_menu.tintes_ob)">+</a>
+        <div id="mob-menu-tintes">
+          <ul id="mob-menu-tintes-list">
+            <li onclick="change('color.html')" style="border-color:black;border-width:3px;border-bottom-style:solid;border-top-style:solid;background-color:#ff0051"><a href="color.html">Ye Color</a></li>
+            <li onclick="change('decolorante.html')" style="background-color:#ff0051;"><a href="decolorante.html">Decolorante</a></li>
+          </ul>
+        </div>
+      </li>
+      <li style="border-color:black;border-width:3px;border-bottom-style:solid;">
+        <a href="tratamientos.html">Tratamientos</a><a style="background-color:#ff0051;" onclick="openMenu(mobile_menu.terapias, mobile_menu.terapias_ob)">+</a>
+        <div id="mob-menu-terapias">
+          <ul id="mob-menu-terapias-list">
+            <li onclick="change('curly.html')" style="border-color:black;border-width:3px;border-bottom-style:solid;border-top-style:solid;background-color:#ff0051;"><a href="curly.html">Ye Curly Therapy</a></li>
+            <li onclick="change('liss.html')" style="border-color:black;border-width:3px;border-bottom-style:solid;background-color:#ff0051;"><a href="liss.html">Ye Liss Therapy</a></li>
+            <li onclick="change('bloom.html')" style="border-color:black;border-width:3px;border-bottom-style:solid;background-color:#ff0051;"><a href="bloom.html">Ye Bloom</a></li>
+            <li onclick="change('silver.html')" style="background-color:#ff0051;"><a href="silver.html">Ye Silver Color</a></li>
+          </ul>
+        </div>
+      </li>
+      <li onclick="change('contacto.html')"><a href="contacto.html">Contacto</a></li>
+
+    </ul>
+
+  </div>
+  </div>
+  <div class="container-treatments">
+    <div class="identifier" style="background-color:#F15A22;">
+      Ye Style
+    </div>
+      <img src="css/style.png" id="product_model" class="animated bounceInLeft">
+      <img src="css/tr_style.jpg" id="product_product" class="animated bounceInRight">
+  </div><br><br>
+  <div class="description" style="background-color:#F15A22;box-shadow: 4px 5px 5px #d40042;">
+  <p>
+    <h1>Ye Style</h1> Esta línea fue creada para resaltar los peinados, fijar los cabe
+    llos rizados y modelar el cabello alisado. Sus productos dan la posibilidad de crear
+    diferentes estilos para cabiar el visual. Su avanzada fórmula hidrata el cabello
+    y permite prolongar la duración de los peinados mantiene el aspecto natural
+    sin dejar residuos.
+  </p>
+  <p>
+    Esta terapia incluye los siguientes productos
+    <ul id="list_products">
+      <li>Mousse para definir estilo</li>
+      <li>Activador de rizos</li>
+      <li>Gel fijador de estilo</li>
+      <li>Gomina de brillo</li>
+    </ul>
+    El mousse moldea texturas para cabellos lisos y le da volumen a los cabellos rizados
+  </p>
+  <p>
+    El activador de rizos da forma y define los rizos sin dejarlos pesados. Además,
+    contiene acción anti-frizz de la cera de naranja. Ofrece una alta suavidad
+  </p>
+  <p>
+    El gel fijador de estilo, fija la textura del cabello, haciendola duradera.
+    También contiene un filtro contra rayos ultravioleta
+  </p>
+  <p>
+    La gomina de brillo crea un velo de protección térmica. Las propiedades hidratantes
+    del Aloe Vera y del Germen de Trigo dejan los cabellos brillantes y sedosos.
+  </p>
+</div>
+</body>
+<script>
+var banner = {
+  options: ["ban1.png", "ban2.png", "ban3.png", "ban4.png", "ban5.png", "ban6.png", "ban7.png"],
+  links: ["curly.html", "liss.html", "bloom.html", "silver.html", "essential.html", "style.html", "tintes.html"],
+  canvas: document.getElementById("inside"),
+  linkc: document.getElementById("linkb"),
+  index: 1,
+  change: function(){
+    //$("#inside").toggleClass("animated bounce");
+    this.canvas.src = "css/" + this.options[this.index];
+    this.canvas.parentNode.href = this.links[this.index];
+    this.index++;
+    if (this.index == 7){
+      this.index = 0;
+    }
+    /*setTimeout(function(){
+      $("#inside").toggleClass("animated bounce");
+    }, 500);*/
+  }
+};
+var mobile_menu = {
+  menu: false,
+  menu_ob: document.getElementById("mob-menu-list"),
+  tintes: false,
+  tintes_ob: document.getElementById("mob-menu-tintes"),
+  terapias: false,
+  terapias_ob: document.getElementById("mob-menu-terapias")
+};
+function openMenu(menu_item, menu_obs){
+  if (mobile_menu.menu_item){
+    menu_obs.style.display = "none";
+    mobile_menu.menu_item = false;
+  }else{
+    menu_obs.style.display = "block";
+    mobile_menu.menu_item = true;
+  }
+
+}
+function change(link){
+  location.href = link;
+}
+  (function changing(){
+    banner.change();
+    setTimeout(changing, 5000);
+  })();
+
+
+
+
+
+</script>
+</html>
