@@ -358,6 +358,12 @@ li p{
     position: relative;
     height: 364px;
   }
+  #product_product[src="css/tr_essential.JPG"]{
+    width:100%;
+    margin-left: 0;
+    position: relative;
+    height: 300px;
+  }
   .identifier{
     margin-left: 0;
     width:100%;
@@ -405,6 +411,16 @@ li p{
     font-size: 50px;
     text-align:center;
     margin-left:0;
+  }
+  #des-curly[name="bloom"]{
+    font-size: 50px;
+    text-align: center;
+    margin-left: 15%;
+  }
+  #des-curly[name="style"]{
+    font-size: 50px;
+    text-align: center;
+    margin-left: 20%;
   }
   #image_treatments{
     display: none;
